@@ -1,0 +1,8 @@
+framework module "GoSwift" {
+	header "ref.h"
+    header "GoSwift.objc.h"
+    header "Universe.objc.h"
+    header "GoSwift.h"
+
+    export *
+}
